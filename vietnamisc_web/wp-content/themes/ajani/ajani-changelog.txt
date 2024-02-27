@@ -1,0 +1,30 @@
+Version 1.1.5 - 21 July 23
+    - Fixed PHP warning related to Post Slider
+Version 1.1.4 - 15 July 23
+    - Fixed demo import
+Version 1.1.3 - 23 June 23
+    - Improved WooCommerce compatibility
+Version 1.1.2 - 30 March 23
+    - Fixed WP 6.2 issue
+Version 1.1.1 - 21 February 23
+    - Improved WooCommerce compatibility
+Version 1.1.0 - 23 November 22
+    - Improved WooCommerce compatibility
+Version 1.0.9 - 8 September 22
+    - Minor bug fixes
+Version 1.0.8 - 4 September 22
+    - Import plugin update
+Version 1.0.7 - 27 January 22
+    - Added new Google Fonts
+Version 1.0.6 - 26 January 22
+    - Fixed fonts
+Version 1.0.5 - 26 January 22
+    - Fixed padding issue
+Version 1.0.4 - 18 January 22
+    - Improved Bold Builder compatibility
+Version 1.0.3 - 7 December 21
+    - Minor bug fixes
+Version 1.0.2 - 14 October 21
+    - Fixed CF7 spinner
+Version 1.0.1 - 11 October 21
+    - Improved RTL support

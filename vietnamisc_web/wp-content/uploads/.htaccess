@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(2024/01/Be_Vietnam_Pro.zip)$ ../../index.php?wpdmmediaid=3529&wpdmmedia=$1
+</IfModule>

@@ -1,0 +1,49 @@
+version: '2'
+services:
+ vietnamisc_db:
+  image: "mariadb:10.4"
+  ports:
+   - "3307:3306"
+  container_name: vietnamisc_db
+  volumes:
+   - ./vietnamisc_db:/var/lib/mysql
+  restart: always
+  environment:
+   - TZ=Asia/Ho_Chi_Minh
+   - MYSQL_ROOT_PASSWORD=LVtech2023@
+   - MYSQL_DATABASE=vietnamisc_db
+  privileged: true
+  tty : true
+  logging:
+   driver: "json-file"
+   options:
+    max-size: "10m"
+ #
+ vietnamisc_web:
+  image: "liem/apache-php:8.2"
+  ports:
+   - "8080:80"
+  ulimits:
+    memlock:
+     soft: -1
+     hard: -1
+    nofile:
+     soft: 65536
+     hard: 65536
+#  resources:
+#   limits:
+#    memory: 8g
+  container_name: vietnamisc_web
+  volumes:
+   - ./vietnamisc_web/:/var/www/html
+#   - ./isc/isc_conf:/etc/apache2/sites-enabled
+  restart: always
+  privileged: true
+  tty : true
+  command : "/startup"
+  logging:
+   driver: "json-file"
+   options:
+    max-size: "10m"
+  links:
+   - vietnamisc_db

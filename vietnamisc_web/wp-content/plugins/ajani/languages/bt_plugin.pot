@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-20 21:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ajani.php:31
+msgid "Header Left Widgets"
+msgstr ""
+
+#: ajani.php:37
+msgid "Header Right Widgets"
+msgstr ""
+
+#: ajani.php:43
+msgid "Header Menu Widgets"
+msgstr ""
+
+#: ajani.php:49
+msgid "Header Logo Widgets"
+msgstr ""
+
+#: ajani.php:55
+msgid "Footer Widgets"
+msgstr ""
+
+#: ajani.php:73
+msgid "Portfolio"
+msgstr ""
+
+#: ajani.php:74
+msgid "Portfolio Item"
+msgstr ""
+
+#: ajani.php:83
+msgid "Portfolio Categories"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:20
+msgid "Custom JS"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:46 framework_bt_plugin/framework.php:169
+#: framework_bt_plugin/framework.php:292 framework_bt_plugin/framework.php:421
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:70 framework_bt_plugin/framework.php:193
+#: framework_bt_plugin/framework.php:316 framework_bt_plugin/framework.php:436
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:95 framework_bt_plugin/framework.php:218
+#: framework_bt_plugin/framework.php:340
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:119 framework_bt_plugin/framework.php:242
+#: framework_bt_plugin/framework.php:364 framework_bt_plugin/framework.php:467
+msgid "Share on VK"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:143 framework_bt_plugin/framework.php:266
+#: framework_bt_plugin/framework.php:388 framework_bt_plugin/framework.php:483
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: framework_bt_plugin/framework.php:451
+msgid "Share on Linkedin"
+msgstr ""
+
+#: widgets/widgets.php:16
+msgid "BB Button"
+msgstr ""
+
+#: widgets/widgets.php:17
+msgid "Button with icon, text, link, color scheme, size, shape."
+msgstr ""
+
+#: widgets/widgets.php:133
+msgid "Icon:"
+msgstr ""
+
+#: widgets/widgets.php:143
+msgid "Filter..."
+msgstr ""
+
+#: widgets/widgets.php:163
+msgid "Icon Position:"
+msgstr ""
+
+#: widgets/widgets.php:178
+msgid "Icon Color Scheme:"
+msgstr ""
+
+#: widgets/widgets.php:192
+msgid "Icon Size:"
+msgstr ""
+
+#: widgets/widgets.php:207
+msgid "Text:"
+msgstr ""
+
+#: widgets/widgets.php:211
+msgid "URL or slug:"
+msgstr ""
+
+#: widgets/widgets.php:215
+msgid "Target:"
+msgstr ""
+
+#: widgets/widgets.php:230
+msgid "Style:"
+msgstr ""
+
+#: widgets/widgets.php:245
+msgid "Size:"
+msgstr ""
+
+#: widgets/widgets.php:260
+msgid "Shape:"
+msgstr ""
+
+#: widgets/widgets.php:275
+msgid "Color scheme:"
+msgstr ""
+
+#: widgets/widgets.php:289
+msgid "CSS extra class:"
+msgstr ""
